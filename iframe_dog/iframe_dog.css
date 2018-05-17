@@ -1,5 +1,5 @@
 .v-player{position: relative;width: 100%;height: 100%;}
-.listSkip{width:20%;float: right; overflow: auto;height: 100%;}
+.listSkip{width:20%;float: right; overflow: auto;height: 100%;background: #353535;}
 .iframe{width:80%;height:100%}
 iframe {width: 100%;height: 100%;}
 .d_video {border: 1px solid #474747;background: #353535;width: 100%;height: 10%;text-align: center;line-height: 300%;}
