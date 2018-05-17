@@ -9,9 +9,8 @@ iframe {width: 100%;height: 100%;}
     white-space: nowrap;
 }
 .d_video:hover{background: #1aa1c7;}
-a.d_video{color:#fff}
 ::-webkit-scrollbar {display: none;}
-a{text-decoration: none; color: #fff; }
+.d_video a{text-decoration: none; color: #fff; }
 .v-player{
 height:480px !important;
 }
