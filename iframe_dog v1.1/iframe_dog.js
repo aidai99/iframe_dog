@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $(".d_video:nth-child(1)").css("color","#08a2fc"); 
+	$(".d_video").click(function(){
+         $("iframe").attr("src",$(this).attr("data-video"));
+    });
+$('.d_video').click(function(){
+        $(".d_video").removeAttr("style");
+        $(this).css("color","#08a2fc");  
+    });
+});
