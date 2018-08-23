@@ -7,12 +7,12 @@ wordpress实现的iframe框架!<br>
 真实链接则会xxx.com/?1.mp4
 <br>
 效果如图:<br>
-<img src="https://wx3.sinaimg.cn/large/006ZDceQly1ftcszyg9dsj31cg08ydg6.jpg">
-以下是引用了DPlayer播放器的实例
-<img src="https://wx3.sinaimg.cn/large/006ZDceQly1ftct3cdr3kj30s50haaaf.jpg">
-引用解析:
-<img src="https://wx3.sinaimg.cn/large/006ZDceQly1ftctcex1o5j30s10gw3zx.jpg">
-
-引用B站视频:
-<img src="https://wx3.sinaimg.cn/large/006ZDceQly1ftctccauluj30s60h3wfg.jpg">
-
+<img src="https://ws1.sinaimg.cn/large/006ZDceQgy1fuk1cn40o0j311p0boq34.jpg">
+短代码实例:<br>
+<img src="https://ws1.sinaimg.cn/large/006ZDceQgy1fuk1cn3v6lj310u08wmx9.jpg">
+基于Dplayer播放器演示demo:<br>
+<img src="https://ws1.sinaimg.cn/large/006ZDceQgy1fuk1cngrfcj30s60iuavr.jpg">
+基于哔哩哔哩播放器演示demo:<br>
+<img src="https://ws1.sinaimg.cn/large/006ZDceQgy1fuk1faj1ibj30qh0kqwrn.jpg">
+基于优酷外链演示demo:<br>
+<img src="https://ws1.sinaimg.cn/large/006ZDceQgy1fuk1fm7if3j30ql0k940q.jpg">
