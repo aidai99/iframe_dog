@@ -122,7 +122,13 @@ EOF;
             }
         }
         return <<<EOF
-                <script>
+            <div class="Car-player">
+                <div class="Car-iframe">
+                <iframe src="$one" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" __idm_frm__="23" frameborder=0 ></iframe>
+                </div>
+                <div class="Car-listSkip" $selselect_none>$selselect</div>
+            </div>
+            <script>
                 $(document).ready(function(){
                   var url=location.href;           //当前url
                   var video_page=/.*#(\d+)$/.exec(url);   //正则查找	
@@ -144,7 +150,7 @@ EOF;
             </script>
             <style>
               .Car-player{width:100%;float:left; }
-              .Car-iframe{width:100%;float:left;height: 0; margin-bottom: 1rem;padding-bottom: 50%;position: relative;}
+              .Car-iframe{width:100%;float:left;height: 0; margin-bottom: 1rem;padding-bottom: 70%;position: relative;}
               .Car-iframe iframe{background: #000;height: 100%;position: absolute;width: 100%;}
               .Car-listSkip{width:100%;float:left;}
               .Car-listSkip a{background: grey;color: white;border-radius: 5px;margin:0 5px 5px 5px;float: left;width: 9.15%;text-align: center;height: 30px;line-height: 30px;overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
@@ -154,12 +160,6 @@ EOF;
                   .Car-iframe{padding-bottom: 70%;}
               }
             </style>
-            <div class="Car-player">
-                <div class="Car-iframe">
-                <iframe src="$one" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" __idm_frm__="23" frameborder=0 ></iframe>
-                </div>
-                <div class="Car-listSkip" $selselect_none>$selselect</div>
-            </div>
 EOF;
     }  
 
