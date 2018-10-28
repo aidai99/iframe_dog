@@ -1,0 +1,18 @@
+
+.video-U-li {margin: 10px 0;position: relative;padding-right: 40px;clear: both;height: 28px;}
+.video-Uname {width: 80%;float: left;position: relative;}
+.video-U-li input {float: left; margin: 0;width: 40%;}
+.video-U-li-delete {background: #4ba563;width:10%;position: absolute;top: 5px;color: #fff;font-size: 12px;text-align: center;cursor: pointer;margin-left: 5px;}
+.Car-video-add {background: #4ba563;height: 25px;line-height: 25px;text-align: center;font-size: 12px;color: #fff;cursor: pointer;margin-top: 10px;width: 10%;}
+
+.Car-player{width:100%;display: inline-block;}
+.Car-iframe{width:100%;height: 0; margin-bottom: 1rem;padding-bottom: 50%;position: relative;}
+.Car-iframe iframe{background: #000;height: 100%;position: absolute;width: 100%;}
+.Car-listSkip{width:100%;display: inline-block;}
+.Car-listSkip .IfrmaeDog-selselect{background: #808080;color: #fff;border-radius: 5px;margin: 2px 2.5px;display: inline-block;width: calc((10% - 5px));text-align: center;height: 30px;line-height: 30px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.Car-listSkip .IfrmaeDog-selselect:hover{background: #00bcd4;}
+@media (max-width: 800px){
+    .Car-listSkip IfrmaeDog-selselect{width:22%}
+    .Car-player{margin-top:10px;}
+    .Car-iframe{padding-bottom: 70%;}
+}
