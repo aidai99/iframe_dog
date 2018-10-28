@@ -5,6 +5,11 @@ wordpress实现的iframe框架!<br>
 如播放器地址xxx.com/?
 则在后台可自定义正则进行匹配链接。
 真实链接则会xxx.com/?1.mp4
+--------------------------
+2018-10-28增加IframeDog
+IframeDog为后端视频加载模式,抛弃了前台必须需要jquery,其他不变
+
+--------------------------
 <br>
 效果如图:<br>
 <img src="https://ws1.sinaimg.cn/large/006ZDceQgy1fuk1cn40o0j311p0boq34.jpg">
