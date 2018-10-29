@@ -90,7 +90,7 @@ EOF;
                 }
                 $j=$i+1;
                 $name[$i]=urldecode($name[$i]);
-                $selselect .= '<a href="'.get_the_permalink().'?vpage='.$j.'" class="IfrmaeDog-selselect" title="'.$name[$i].'">'.$name[$i].'</a>';
+                $selselect .= '<div onclick="IframeDog('.$j.')" class="IfrmaeDog-selselect" title="'.$name[$i].'">'.$name[$i].'</div>';
             }
         }
         
@@ -113,6 +113,10 @@ EOF;
         </div>
         <script type="text/javascript">
             document.getElementsByClassName("IfrmaeDog-selselect")[$vpage].style.background='#00bcd4';
+            function IframeDog(i){
+                IframeUrl=location.href.split("?vpage=")[0];
+                document.location.href=IframeUrl+"?vpage="+i;
+            }
         </script>
 EOF;
 
